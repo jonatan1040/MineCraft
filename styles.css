@@ -3,6 +3,7 @@
 }
 
 body {
+<<<<<<< HEAD
     margin: 0;
     height: 100vh;
 }
@@ -36,3 +37,39 @@ body {
     flex-basis: 10%;
     background-color: black;
 }
+=======
+  margin: 0;
+}
+
+.col-container {
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  flex: 1;
+  padding: 16px;
+  background-color: orange;
+  border: black 1px solid;
+}
+
+.col1 {
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 70%;
+  margin: 0 10%;
+}
+
+.col2 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 10%;
+}
+
+div[class*="option-"] {
+  border: solid black 1px;
+  height: 60px;
+  width: 50px;
+  margin: 20px 10px;
+}
+>>>>>>> d18fcb9b5e5458639113ddf7c5803f612d48c431
